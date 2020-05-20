@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Preloader.unity
+    guid: 14eff67e0df0c5148bcd17a5009e103e
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 6fb15145c0b916b43beeee085928d223
+  - enabled: 1
+    path: Assets/Scenes/AR.unity
+    guid: f3fa77c173b7adb44ae7e12ed95d0529
+  - enabled: 1
+    path: Assets/Scenes/ARChallenge.unity
+    guid: 7b4f87ca20427934190584007f17ade1
+  m_configObjects:
+    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 150bf13722f1d744d841af1e9fd346ed,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f1808164cb190de418e1322756537069,
+      type: 2}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5578785840991141506
+  m_GuidHigh: 1145405316476284587
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5488575117013501021
+      m_GuidHigh: 7074209114982639272
+    m_SerializedTextureGuid:
+      m_GuidLow: 5693741407906199414
+      m_GuidHigh: 10162313281949065691
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Sulfur
+    m_Texture: {fileID: 2800000, guid: cd2e77763ba44f04dbe1ce7216ca078d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4983224208105545512
+      m_GuidHigh: 6292964247664039612
+    m_SerializedTextureGuid:
+      m_GuidLow: 4347170081557936846
+      m_GuidHigh: 13595092025109944747
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Phosphorus
+    m_Texture: {fileID: 2800000, guid: 29777ace40283c54ab996cbd2a78abbc, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5253257600792036609
+      m_GuidHigh: 6422806231401200831
+    m_SerializedTextureGuid:
+      m_GuidLow: 2622334647131397393
+      m_GuidHigh: 1668981220953716810
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Oxygen
+    m_Texture: {fileID: 2800000, guid: c4775d11677724644a78beeb93692917, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5453847891305902012
+      m_GuidHigh: 18391897002542442922
+    m_SerializedTextureGuid:
+      m_GuidLow: 17736501673295160961
+      m_GuidHigh: 14757309215044032810
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Hydrogen
+    m_Texture: {fileID: 2800000, guid: c2e12681b64cf6242a594c238b7ecccc, type: 3}
