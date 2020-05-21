@@ -64,11 +64,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ARChallengeMenu.cs" />
     <Compile Include="Assets\Scripts\ARMenu.cs" />
+    <Compile Include="Assets\Scripts\FinishChallenge.cs" />
     <Compile Include="Assets\Scripts\ImageTracking.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Preloader.cs" />
     <Compile Include="Assets\Scripts\RotationAndScaling\ScaleRotate.cs" />
     <Compile Include="Assets\Scripts\RotationAndScaling\onClickForScaleRotate.cs" />
+    <Compile Include="Assets\Scripts\aaaaa.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
