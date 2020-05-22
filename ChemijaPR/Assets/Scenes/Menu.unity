@@ -7425,7 +7425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ATRADIMAI
+  m_Text: BIBLIOTEKA
 --- !u!222 &1341377601
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9485,7 +9485,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Atrasta: 6 / 6'
+  m_Text: Biblioteka
 --- !u!222 &1985104353
 CanvasRenderer:
   m_ObjectHideFlags: 0

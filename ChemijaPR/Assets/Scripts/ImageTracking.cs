@@ -202,13 +202,11 @@ public class ImageTracking : MonoBehaviour
         var sceneName = SceneManager.GetActiveScene().name;
         if (sceneName == "AR")
         {
-            Debug.Log(sceneName);
             InfoBtn(name);
             ShowName(name);
         }
         else if (sceneName == "ARChallenge")
         {
-            Debug.Log(sceneName);
             SetScore(name);
         }
     }
@@ -220,13 +218,11 @@ public class ImageTracking : MonoBehaviour
 
         if(name != "Unknown" || name != null)
         {
-            Debug.Log(name);
             prefabNameContainer.gameObject.SetActive(true);
             imageTrackedText.text = translator[name];
         }
         else
         {
-            Debug.Log(name);
             prefabNameContainer.gameObject.SetActive(false);
         }
     }

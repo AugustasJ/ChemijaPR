@@ -27,9 +27,8 @@ public class FinishChallenge : MonoBehaviour
     void Start()
     {
         finalScoreText.text = scoreText.text;
-        timerText.text = timeStart.ToString("F2");
+        timerText.text = timeStart.ToString("F2") + "s";
         finalTimerText.text = timerText.text;
-        Debug.Log("START");
     }
 
     void Update()
@@ -39,7 +38,7 @@ public class FinishChallenge : MonoBehaviour
         if (timerActive)
         {
             timeStart += Time.deltaTime;
-            timerText.text = timeStart.ToString("F2");
+            timerText.text = timeStart.ToString("F2") + "s";
             finalTimerText.text = timerText.text;
         }
     }

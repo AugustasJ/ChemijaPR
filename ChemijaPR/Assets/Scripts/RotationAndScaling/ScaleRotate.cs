@@ -2,13 +2,13 @@
 using UnityEngine;
 
 public class ScaleRotate : MonoBehaviour {
-	
-	public float initialFingersDistance;
-	public Vector3 initialScale;
+
+    public Vector3 initialScale;
+    public float initialFingersDistance;
 	public static Transform ScaleTransform;
     public static Transform RotationTransform;
 	
-	void  Update ()
+	public void Update ()
     {
 		int fingersOnScreen = 0;
 		
@@ -26,21 +26,18 @@ public class ScaleRotate : MonoBehaviour {
 				else
                 {
 					float currentFingersDistance = Vector2.Distance(Input.touches[0].position, Input.touches[1].position);
-					
 					float scaleFactor = currentFingersDistance / initialFingersDistance;
-
 					ScaleTransform.localScale = initialScale * scaleFactor; 
 				}
 			}
             else if (fingersOnScreen == 1)
             {
-                Touch touche;
-                touche = Input.GetTouch(0);
-
-                if(Input.touchCount == 1 && touche.phase == TouchPhase.Moved)
+                if(Input.touchCount == 1 && touch.phase == TouchPhase.Moved)
                 {
-                    RotationTransform.transform.Rotate(Vector3.up * 8f * Time.deltaTime * touch.deltaPosition.x, Space.Self);
-                    RotationTransform.transform.Rotate(Vector3.right * -8f * Time.deltaTime * touch.deltaPosition.y, Space.Self);
+                    RotationTransform.transform.Rotate
+                        (Vector3.up * 8f * Time.deltaTime * touch.deltaPosition.x, Space.Self);
+                    RotationTransform.transform.Rotate
+                        (Vector3.right * -8f * Time.deltaTime * touch.deltaPosition.y, Space.Self);
                 }
             }
 		}
