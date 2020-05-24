@@ -50,7 +50,7 @@ public class ImageTracking : MonoBehaviour
         translator.Add("Sulfur", "Siera");
         translator.Add("H2SO4", "Sieros rūgštis");
         translator.Add("H2O", "Vanduo");
-        translator.Add("Unknown", "");
+        translator.Add("Unknown", "-?-");
     }
 
     private void OnEnable()
@@ -118,6 +118,7 @@ public class ImageTracking : MonoBehaviour
         }
 
         string name = "Unknown";
+        SceneActions(name);
 
         if (imagesOnScreen.Count == 1)
         {
@@ -157,8 +158,6 @@ public class ImageTracking : MonoBehaviour
                         prefab.SetActive(true);
                         prefab.transform.position = position;
                     }
-
-                    SceneActions(name);
                 }
                 else if(isHydrogen && isOxygen && isSulfur)
                 {
@@ -176,13 +175,12 @@ public class ImageTracking : MonoBehaviour
                         prefab.SetActive(true);
                         prefab.transform.position = position;
                     }
-
-                    SceneActions(name);
                 }
                 else
                 {
                     Vector3 initPosition = trackedImage.transform.position;
                     var position = new Vector3(initPosition.x, initPosition.y, initPosition.z - 0.05f);
+                    name = trackedImage.referenceImage.name;
 
                     if (placablePrefabs != null)
                     {
@@ -191,7 +189,6 @@ public class ImageTracking : MonoBehaviour
                         prefab.transform.position = position;
                     }
                 }
-
                 SceneActions(name);
             }
         }
@@ -242,7 +239,6 @@ public class ImageTracking : MonoBehaviour
         }
 
         string numberOfElementsDiscovered = discoveredElements.Count.ToString();
-
         scoreText.text = numberOfElementsDiscovered;
     }
 

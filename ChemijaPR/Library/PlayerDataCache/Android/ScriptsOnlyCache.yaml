@@ -3,7 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ARChallengeMenu
     - ARMenu
-    - FinishChallenge
+    - ChallengeTimer
     - ImageTracking
     - MainMenu
     - Preloader
@@ -680,7 +680,7 @@ ScriptsOnlyBuild:
       Hash: a2ec07e9c864d4d03cd419a9583375bf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: FinishChallenge
+    className: ChallengeTimer
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
