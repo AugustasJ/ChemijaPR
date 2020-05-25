@@ -3,7 +3,7 @@ ChemijaPR - papildytą realybę naudojanti mokomoji programėlė. Programėlė s
 Programėlė parašyta naudojant Unity 2019.3.13f1 versiją.
 Papildomai įdiegti "AR Foundation" (2.1.8 versija) ir "ARCore XR Plugin" (2.1.8 versija) paketai, kurie leidžia pasitelkti funkcionalumą, reikalingą papildytą realybę naudojančiai "Android" programėlei.
 
-AAtidarant projektą per Unity pasirinkti "ChemijaPR" aplanką.
+Atidarant projektą per Unity pasirinkti "ChemijaPR" aplanką.
 
 Norint įkelti į telefoną:
 1) Prijungti prie kompiuterio savo android įrenginį;
